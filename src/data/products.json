@@ -1,0 +1,342 @@
+[
+  {
+    "id": 1,
+    "name": "HAVIT HV-G92 Gamepad",
+    "price": 120,
+    "originalPrice": 160,
+    "discount": 40,
+    "rating": 4.8,
+    "reviewCount": 88,
+    "category": "gaming",
+    "image": "/images/products/gamepad.png",
+    "description": "PlayStation 5 Controller Skin High quality vinyl with air channel adhesive for easy bubble free install & mess free removal. Pressure sensitive precision triggers, dual vibration motors and ergonomic grip.",
+    "colors": [
+      "#DB4444",
+      "#000000",
+      "#FFFFFF"
+    ],
+    "isFlashSale": true,
+    "isBestSeller": false,
+    "isExplore": true,
+    "isNew": false
+  },
+  {
+    "id": 2,
+    "name": "AK-900 Wired Keyboard",
+    "price": 960,
+    "originalPrice": 1160,
+    "discount": 35,
+    "rating": 4.7,
+    "reviewCount": 75,
+    "category": "computers",
+    "image": "/images/products/keyboard.png",
+    "description": "Professional Mechanical Gaming Keyboard with RGB Chroma Backlighting. Fast response mechanical blue switches, durable aircraft-grade aluminum frame and anti-ghosting keys.",
+    "colors": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "isFlashSale": true,
+    "isBestSeller": false,
+    "isExplore": false,
+    "isNew": false
+  },
+  {
+    "id": 3,
+    "name": "IPS LCD Gaming Monitor",
+    "price": 370,
+    "originalPrice": 400,
+    "discount": 30,
+    "rating": 4.9,
+    "reviewCount": 99,
+    "category": "computers",
+    "image": "/images/products/monitor.png",
+    "description": "27-inch QHD (2560 x 1440) Fast IPS 165Hz 1ms Ultra-thin Bezels with AMD FreeSync Premium and HDR400. Crystal clear visuals and fluid motion for competitive gaming.",
+    "colors": [
+      "#000000"
+    ],
+    "isFlashSale": true,
+    "isBestSeller": false,
+    "isExplore": false,
+    "isNew": false
+  },
+  {
+    "id": 4,
+    "name": "S-Series Comfort Chair",
+    "price": 375,
+    "originalPrice": 400,
+    "discount": 25,
+    "rating": 4.6,
+    "reviewCount": 99,
+    "category": "home",
+    "image": "/images/products/chair.png",
+    "description": "Ergonomic executive gaming & office chair made of premium breathable faux leather, adjustable lumbar cushion and 4D armrests for ultimate all-day comfort.",
+    "colors": [
+      "#DB4444",
+      "#000000",
+      "#7D8184"
+    ],
+    "isFlashSale": true,
+    "isBestSeller": false,
+    "isExplore": false,
+    "isNew": false
+  },
+  {
+    "id": 5,
+    "name": "HyperX Cloud II Gaming Headset",
+    "price": 140,
+    "originalPrice": 180,
+    "discount": 22,
+    "rating": 4.8,
+    "reviewCount": 120,
+    "category": "headphones",
+    "image": "/images/products/headphone.png",
+    "description": "Legendary comfort with 7.1 Virtual Surround Sound, memory foam ear pads, durable aluminum frame and detachable noise-cancelling microphone.",
+    "colors": [
+      "#DB4444",
+      "#000000"
+    ],
+    "isFlashSale": true,
+    "isBestSeller": false,
+    "isExplore": false,
+    "isNew": false
+  },
+  {
+    "id": 6,
+    "name": "The north coat",
+    "price": 260,
+    "originalPrice": 360,
+    "discount": 28,
+    "rating": 4.8,
+    "reviewCount": 65,
+    "category": "fashion",
+    "image": "/images/products/coat.png",
+    "description": "Premium thermal insulated winter parka with waterproof shell, storm flap and faux fur trim hood. Designed for freezing temperatures with sleek minimalist styling.",
+    "colors": [
+      "#e0cbb7",
+      "#000000",
+      "#2c3e50"
+    ],
+    "isFlashSale": false,
+    "isBestSeller": true,
+    "isExplore": false,
+    "isNew": false
+  },
+  {
+    "id": 7,
+    "name": "Gucci duffle bag",
+    "price": 960,
+    "originalPrice": 1160,
+    "discount": 17,
+    "rating": 4.9,
+    "reviewCount": 65,
+    "category": "fashion",
+    "image": "/images/products/bag.png",
+    "description": "Signature luxury canvas duffle travel bag with Italian calfskin leather trims, double zip closure and adjustable shoulder strap.",
+    "colors": [
+      "#8b5a2b",
+      "#000000"
+    ],
+    "isFlashSale": false,
+    "isBestSeller": true,
+    "isExplore": false,
+    "isNew": false
+  },
+  {
+    "id": 8,
+    "name": "RGB liquid CPU Cooler",
+    "price": 160,
+    "originalPrice": 170,
+    "discount": 6,
+    "rating": 4.6,
+    "reviewCount": 65,
+    "category": "computers",
+    "image": "/images/products/cooler.png",
+    "description": "All-in-one 240mm RGB liquid processor cooling system with high static pressure fans, mirror pump cap and whisper-quiet pump.",
+    "colors": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "isFlashSale": false,
+    "isBestSeller": true,
+    "isExplore": false,
+    "isNew": false
+  },
+  {
+    "id": 9,
+    "name": "Small BookSelf",
+    "price": 360,
+    "originalPrice": 360,
+    "discount": 0,
+    "rating": 4.7,
+    "reviewCount": 65,
+    "category": "home",
+    "image": "/images/products/bookshelf.png",
+    "description": "Solid natural oak small bookshelf with modular display shelves, minimalist Scandinavian design suitable for living room, study or bedroom.",
+    "colors": [
+      "#d4a373",
+      "#3d3a45"
+    ],
+    "isFlashSale": false,
+    "isBestSeller": true,
+    "isExplore": false,
+    "isNew": false
+  },
+  {
+    "id": 10,
+    "name": "Breed Dry Dog Food",
+    "price": 100,
+    "originalPrice": 100,
+    "discount": 0,
+    "rating": 3.5,
+    "reviewCount": 35,
+    "category": "groceries",
+    "image": "/images/products/dogfood.png",
+    "description": "Grain-free natural dry dog food packed with real chicken, wholesome vegetables, omega-3 fatty acids and essential vitamins for adult dogs.",
+    "colors": [
+      "#e67e22"
+    ],
+    "isFlashSale": false,
+    "isBestSeller": false,
+    "isExplore": true,
+    "isNew": false
+  },
+  {
+    "id": 11,
+    "name": "CANON EOS DSLR Camera",
+    "price": 360,
+    "originalPrice": 360,
+    "discount": 0,
+    "rating": 4.8,
+    "reviewCount": 95,
+    "category": "camera",
+    "image": "/images/products/camera.png",
+    "description": "24.1 MP CMOS sensor DSLR camera with 4K UHD video recording, Dual Pixel CMOS AF, built-in Wi-Fi and Bluetooth. Includes 18-55mm lens.",
+    "colors": [
+      "#000000"
+    ],
+    "isFlashSale": false,
+    "isBestSeller": false,
+    "isExplore": true,
+    "isNew": false
+  },
+  {
+    "id": 12,
+    "name": "ASUS FHD Gaming Laptop",
+    "price": 700,
+    "originalPrice": 700,
+    "discount": 0,
+    "rating": 4.9,
+    "reviewCount": 325,
+    "category": "computers",
+    "image": "/images/products/laptop.png",
+    "description": "15.6 inch 144Hz Full HD IPS display, Intel Core i7 12th Gen, NVIDIA GeForce RTX 3060, 16GB DDR4 RAM, 512GB PCIe NVMe SSD, backlit RGB keyboard.",
+    "colors": [
+      "#1c1c1c",
+      "#4a4a4a"
+    ],
+    "isFlashSale": false,
+    "isBestSeller": false,
+    "isExplore": true,
+    "isNew": false
+  },
+  {
+    "id": 13,
+    "name": "Curology Product Set",
+    "price": 500,
+    "originalPrice": 500,
+    "discount": 0,
+    "rating": 4.7,
+    "reviewCount": 145,
+    "category": "health",
+    "image": "/images/products/curology.png",
+    "description": "Complete dermatologist-developed skincare essentials: gentle foaming cleanser, custom rich moisturizer and acne treatment serum.",
+    "colors": [
+      "#FFFFFF"
+    ],
+    "isFlashSale": false,
+    "isBestSeller": false,
+    "isExplore": true,
+    "isNew": false
+  },
+  {
+    "id": 14,
+    "name": "Kids Electric Car",
+    "price": 960,
+    "originalPrice": 960,
+    "discount": 0,
+    "rating": 4.8,
+    "reviewCount": 65,
+    "category": "baby",
+    "image": "/images/products/car.png",
+    "description": "12V licensed ride-on electric supercar with parental remote control, LED headlights, MP3 Bluetooth music player and spring suspension.",
+    "colors": [
+      "#DB4444",
+      "#000000",
+      "#FFFFFF"
+    ],
+    "isFlashSale": false,
+    "isBestSeller": false,
+    "isExplore": true,
+    "isNew": true
+  },
+  {
+    "id": 15,
+    "name": "Jr. Zoom Soccer Cleats",
+    "price": 1160,
+    "originalPrice": 1160,
+    "discount": 0,
+    "rating": 4.7,
+    "reviewCount": 35,
+    "category": "sports",
+    "image": "/images/products/cleats.png",
+    "description": "Engineered for speed with Nike Air Zoom cushioning, textured upper for precise ball control and conical studs for explosive traction.",
+    "colors": [
+      "#f1c40f",
+      "#000000"
+    ],
+    "isFlashSale": false,
+    "isBestSeller": false,
+    "isExplore": true,
+    "isNew": false
+  },
+  {
+    "id": 16,
+    "name": "GP11 Shooter USB Gamepad",
+    "price": 660,
+    "originalPrice": 660,
+    "discount": 0,
+    "rating": 4.6,
+    "reviewCount": 55,
+    "category": "gaming",
+    "image": "/images/products/usbgamepad.png",
+    "description": "Ergonomic wired PC & Android gamepad with dual analog sticks, turbo rapid fire button and rubberized textured grip handles.",
+    "colors": [
+      "#000000",
+      "#DB4444"
+    ],
+    "isFlashSale": false,
+    "isBestSeller": false,
+    "isExplore": true,
+    "isNew": true
+  },
+  {
+    "id": 17,
+    "name": "Quilted Satin Jacket",
+    "price": 660,
+    "originalPrice": 660,
+    "discount": 0,
+    "rating": 4.8,
+    "reviewCount": 55,
+    "category": "fashion",
+    "image": "/images/products/jacket.png",
+    "description": "Heavyweight premium quilted satin bomber jacket with ribbed collar, hem, and cuffs. Embroidered details and interior hidden chest pocket.",
+    "colors": [
+      "#2e4057",
+      "#1e3d59"
+    ],
+    "isFlashSale": false,
+    "isBestSeller": false,
+    "isExplore": true,
+    "isNew": false
+  }
+]

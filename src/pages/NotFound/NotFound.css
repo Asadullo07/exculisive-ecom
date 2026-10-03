@@ -1,0 +1,37 @@
+.not-found-page {
+  padding-bottom: 120px;
+}
+
+.not-found-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 20px;
+  gap: 32px;
+}
+
+.not-found-code {
+  font-family: var(--font-family-secondary);
+  font-size: 100px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: var(--text-dark);
+  line-height: 1;
+}
+
+.not-found-desc {
+  font-size: 16px;
+  color: var(--text-dark);
+}
+
+.btn-back-home {
+  padding: 16px 48px;
+}
+
+@media (max-width: 768px) {
+  .not-found-code {
+    font-size: 60px;
+  }
+}

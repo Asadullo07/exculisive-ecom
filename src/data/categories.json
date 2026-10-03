@@ -1,0 +1,83 @@
+{
+  "sidebarCategories": [
+    {
+      "id": "woman-fashion",
+      "nameKey": "categories.womanFashion",
+      "hasSub": true,
+      "subcategories": ["Dresses", "Tops & Blouses", "Skirts", "Shoes", "Bags"]
+    },
+    {
+      "id": "man-fashion",
+      "nameKey": "categories.manFashion",
+      "hasSub": true,
+      "subcategories": ["Shirts", "T-Shirts", "Jeans", "Jackets", "Sneakers"]
+    },
+    {
+      "id": "electronics",
+      "nameKey": "categories.electronics",
+      "hasSub": false
+    },
+    {
+      "id": "home-lifestyle",
+      "nameKey": "categories.homeLifestyle",
+      "hasSub": false
+    },
+    {
+      "id": "medicine",
+      "nameKey": "categories.medicine",
+      "hasSub": false
+    },
+    {
+      "id": "sports-outdoor",
+      "nameKey": "categories.sportsOutdoor",
+      "hasSub": false
+    },
+    {
+      "id": "baby-toys",
+      "nameKey": "categories.babyToys",
+      "hasSub": false
+    },
+    {
+      "id": "groceries-pets",
+      "nameKey": "categories.groceriesPets",
+      "hasSub": false
+    },
+    {
+      "id": "health-beauty",
+      "nameKey": "categories.healthBeauty",
+      "hasSub": false
+    }
+  ],
+  "browseCategories": [
+    {
+      "id": "phones",
+      "nameKey": "categories.phones",
+      "icon": "phone"
+    },
+    {
+      "id": "computers",
+      "nameKey": "categories.computers",
+      "icon": "computer"
+    },
+    {
+      "id": "smartwatch",
+      "nameKey": "categories.smartwatch",
+      "icon": "smartwatch"
+    },
+    {
+      "id": "camera",
+      "nameKey": "categories.camera",
+      "icon": "camera"
+    },
+    {
+      "id": "headphones",
+      "nameKey": "categories.headphones",
+      "icon": "headphones"
+    },
+    {
+      "id": "gaming",
+      "nameKey": "categories.gaming",
+      "icon": "gaming"
+    }
+  ]
+}

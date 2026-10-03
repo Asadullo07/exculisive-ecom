@@ -1,0 +1,463 @@
+
+.hero-section {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.hero-sidebar {
+  width: 235px;
+  border-right: 0.5px solid var(--border-light);
+  padding-top: 40px;
+  padding-bottom: 20px;
+  flex-shrink: 0;
+}
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.category-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.category-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 24px;
+  font-size: 16px;
+  color: var(--text-dark);
+  transition: var(--transition);
+}
+
+.category-item:hover .category-link {
+  color: var(--primary);
+  transform: translateX(4px);
+}
+
+.category-flyout {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 220px;
+  background: #FFFFFF;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-lg);
+  padding: 16px 20px;
+  z-index: 100;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.flyout-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--primary);
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 6px;
+}
+
+.category-flyout ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.category-flyout li a {
+  font-size: 14px;
+  color: #333;
+}
+
+.category-flyout li a:hover {
+  color: var(--primary);
+}
+
+
+.hero-slider-wrap {
+  flex: 1;
+  padding-top: 40px;
+  padding-left: 45px;
+  overflow: hidden;
+}
+
+.hero-swiper {
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-dark);
+  height: 344px;
+}
+
+.hero-banner-slide {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 64px;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.hero-slide-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  z-index: 2;
+}
+
+.hero-brand-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.hero-brand-name {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.hero-slide-heading {
+  font-family: var(--font-family-secondary);
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+  margin-bottom: 24px;
+}
+
+.hero-slide-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  transition: var(--transition);
+}
+
+.hero-slide-btn:hover {
+  gap: 14px;
+  color: #f1f1f1;
+}
+
+.hero-slide-media {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-slide-img {
+  max-height: 310px;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+
+.hero-banner-slide:hover .hero-slide-img {
+  transform: scale(1.04);
+}
+
+
+.flash-sales-slider {
+  margin-bottom: 40px;
+}
+
+.section-center-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+
+.browse-category-slider {
+  margin-bottom: 20px;
+}
+
+.category-browse-card {
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  height: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  cursor: pointer;
+  background: #FFFFFF;
+  transition: var(--transition);
+}
+
+.category-browse-name {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-dark);
+}
+
+.category-browse-card:hover,
+.category-browse-card.active {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: #FFFFFF;
+  box-shadow: 0 8px 20px rgba(219, 68, 68, 0.3);
+}
+
+.category-browse-card:hover .category-browse-name,
+.category-browse-card.active .category-browse-name {
+  color: #FFFFFF;
+}
+
+.category-browse-card:hover svg,
+.category-browse-card.active svg {
+  stroke: #FFFFFF;
+}
+
+
+.products-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+
+.promo-banner-section {
+  padding: 40px 20px;
+}
+
+.music-experience-banner {
+  background-color: var(--bg-dark);
+  border-radius: var(--radius-sm);
+  padding: 68px 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  color: #FFFFFF;
+}
+
+.music-banner-info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 440px;
+  z-index: 2;
+}
+
+.music-banner-tag {
+  color: var(--accent-green);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.music-banner-title {
+  font-family: var(--font-family-secondary);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+}
+
+.btn-music-buy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 48px;
+  background-color: var(--accent-green);
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  width: fit-content;
+  transition: var(--transition);
+}
+
+.btn-music-buy:hover {
+  background-color: #05df5b;
+  transform: translateY(-2px);
+}
+
+.music-banner-media {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.glow-backdrop {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 70%);
+  border-radius: 50%;
+  filter: blur(40px);
+  z-index: -1;
+}
+
+.music-banner-img {
+  max-width: 500px;
+  max-height: 380px;
+  object-fit: contain;
+  transition: transform 0.4s ease;
+}
+
+.music-experience-banner:hover .music-banner-img {
+  transform: scale(1.05);
+}
+
+
+.explore-products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+
+.new-arrival-bento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  min-height: 600px;
+}
+
+.bento-item {
+  position: relative;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.bento-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  opacity: 0.85;
+}
+
+.bento-item:hover .bento-bg-img {
+  transform: scale(1.06);
+  opacity: 1;
+}
+
+.bento-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 32px;
+  color: #FFFFFF;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
+  width: 100%;
+  z-index: 2;
+}
+
+.bento-title {
+  font-family: var(--font-family-secondary);
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-bottom: 8px;
+}
+
+.bento-desc {
+  font-size: 14px;
+  color: #FAFAFA;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  max-width: 250px;
+}
+
+.bento-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: var(--transition);
+}
+
+.bento-link:hover {
+  color: var(--primary);
+}
+
+.bento-right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.bento-wide {
+  height: 284px;
+}
+
+.bento-bottom-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  flex: 1;
+}
+
+.bento-small {
+  height: 284px;
+}
+
+
+@media (max-width: 1024px) {
+  .hero-sidebar {
+    display: none;
+  }
+  .hero-slider-wrap {
+    padding-left: 0;
+  }
+  .products-grid-4,
+  .explore-products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .music-banner-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-banner-slide {
+    padding: 0 24px;
+  }
+  .hero-slide-heading {
+    font-size: 28px;
+  }
+  .products-grid-4,
+  .explore-products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .music-experience-banner {
+    flex-direction: column;
+    padding: 40px 24px;
+    text-align: center;
+  }
+  .music-banner-info {
+    align-items: center;
+  }
+  .new-arrival-bento {
+    grid-template-columns: 1fr;
+  }
+  .bento-large {
+    height: 380px;
+  }
+}
+
+@media (max-width: 500px) {
+  .products-grid-4,
+  .explore-products-grid {
+    grid-template-columns: 1fr;
+  }
+  .bento-bottom-row {
+    grid-template-columns: 1fr;
+  }
+}

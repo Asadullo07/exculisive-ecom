@@ -1,0 +1,30 @@
+.breadcrumbs-wrap {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.breadcrumb-link {
+  color: var(--text-muted);
+  transition: var(--transition);
+}
+
+.breadcrumb-link:hover {
+  color: var(--text-dark);
+}
+
+.breadcrumb-separator {
+  color: var(--text-muted);
+}
+
+.breadcrumb-current {
+  color: var(--text-dark);
+  font-weight: 500;
+}

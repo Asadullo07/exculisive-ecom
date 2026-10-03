@@ -1,0 +1,176 @@
+.account-page {
+  padding-bottom: 100px;
+}
+
+.account-header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.account-welcome {
+  font-size: 14px;
+  color: var(--text-dark);
+  padding: 40px 0 30px;
+}
+
+.user-name-highlight {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.account-container {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 80px;
+  align-items: flex-start;
+}
+
+
+.account-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sidebar-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar-group-title,
+.sidebar-single-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.sidebar-sub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 32px;
+}
+
+.sidebar-sub-link {
+  font-size: 15px;
+  color: var(--text-muted);
+  text-align: left;
+  transition: var(--transition);
+}
+
+.sidebar-sub-link:hover,
+.sidebar-sub-link.active {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+
+.account-main-card {
+  background: #FFFFFF;
+  box-shadow: 0 1px 13px rgba(0, 0, 0, 0.05);
+  border-radius: var(--radius-sm);
+  padding: 40px 80px;
+}
+
+.card-headline {
+  font-family: var(--font-family-secondary);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--primary);
+  margin-bottom: 24px;
+}
+
+.profile-edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-field label {
+  font-size: 16px;
+  color: var(--text-dark);
+}
+
+.form-field input,
+.password-fields-stack input {
+  background: var(--secondary);
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  height: 50px;
+  padding: 0 16px;
+  font-size: 15px;
+  color: var(--text-dark);
+  transition: var(--transition);
+}
+
+.form-field input:focus,
+.password-fields-stack input:focus {
+  border-color: var(--text-dark);
+  background: #FFFFFF;
+}
+
+.password-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.sub-headline {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-dark);
+}
+
+.password-fields-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-buttons-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 32px;
+  margin-top: 16px;
+}
+
+.btn-cancel {
+  font-size: 16px;
+  color: var(--text-dark);
+  cursor: pointer;
+}
+
+.btn-cancel:hover {
+  color: var(--primary);
+}
+
+@media (max-width: 860px) {
+  .account-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .account-main-card {
+    padding: 30px 20px;
+  }
+  .form-row-2 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

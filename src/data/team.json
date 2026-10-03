@@ -1,0 +1,58 @@
+{
+	"stats": [
+		{
+			"id": 1,
+			"number": "10.5k",
+			"label": "about.stat1",
+			"icon": "shop"
+		},
+		{
+			"id": 2,
+			"number": "33k",
+			"label": "about.stat2",
+			"icon": "sale",
+			"featured": true
+		},
+		{
+			"id": 3,
+			"number": "45.5k",
+			"label": "about.stat3",
+			"icon": "bag"
+		},
+		{
+			"id": 4,
+			"number": "25k",
+			"label": "about.stat4",
+			"icon": "money"
+		}
+	],
+	"members": [
+		{
+			"id": 1,
+			"name": "Tom Cruise",
+			"role": "Founder & Chairman",
+			"image": "/images/team/tom-cruise.png",
+			"twitter": "https://twitter.com",
+			"instagram": "https://instagram.com",
+			"linkedin": "https://linkedin.com"
+		},
+		{
+			"id": 2,
+			"name": "Emma Watson",
+			"role": "Managing Director",
+			"image": "/images/team/emma-watson.png",
+			"twitter": "https://twitter.com",
+			"instagram": "https://instagram.com",
+			"linkedin": "https://linkedin.com"
+		},
+		{
+			"id": 3,
+			"name": "Will Smith",
+			"role": "Product Designer",
+			"image": "/images/team/will-smith.png",
+			"twitter": "https://twitter.com",
+			"instagram": "https://instagram.com",
+			"linkedin": "https://linkedin.com"
+		}
+	]
+}
