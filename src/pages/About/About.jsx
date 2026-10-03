@@ -34,28 +34,68 @@ const About = () => {
 				</div>
 			</section>
 
+			{/* ── Stats ── */}
 			<section className='stats-section container'>
 				<div className='stats-grid'>
-					{teamData.stats.map(stat => (
-						<div
-							key={stat.id}
-							className={`stat-card ${stat.featured ? 'featured' : ''}`}
-						>
-							<div className='stat-icon-outer'>
-								<div className='stat-icon-inner'>
-									<i
-										className={`fa-solid ${stat.icon}`}
-										style={{ fontSize: '20px' }}
-									></i>
-								</div>
+					{/* 1 */}
+					<div className='stat-card'>
+						<div className='stat-icon-outer'>
+							<div className='stat-icon-inner'>
+								<i
+									className='fa-solid fa-store'
+									style={{ fontSize: '20px' }}
+								></i>
 							</div>
-							<h3 className='stat-number'>{stat.number}</h3>
-							<p className='stat-label'>{stat.label}</p>
 						</div>
-					))}
+						<h3 className='stat-number'>10.5k</h3>
+						<p className='stat-label'>Sellers active our site</p>
+					</div>
+
+					{/* 2 */}
+					<div className='stat-card featured'>
+						<div className='stat-icon-outer'>
+							<div className='stat-icon-inner'>
+								<i
+									className='fa-solid fa-dollar-sign'
+									style={{ fontSize: '20px' }}
+								></i>
+							</div>
+						</div>
+						<h3 className='stat-number'>33k</h3>
+						<p className='stat-label'>Monthly Product Sale</p>
+					</div>
+
+					{/* 3 */}
+					<div className='stat-card'>
+						<div className='stat-icon-outer'>
+							<div className='stat-icon-inner'>
+								<i
+									className='fa-solid fa-bag-shopping'
+									style={{ fontSize: '20px' }}
+								></i>
+							</div>
+						</div>
+						<h3 className='stat-number'>45.5k</h3>
+						<p className='stat-label'>Customer active in our site</p>
+					</div>
+
+					{/* 4 */}
+					<div className='stat-card'>
+						<div className='stat-icon-outer'>
+							<div className='stat-icon-inner'>
+								<i
+									className='fa-solid fa-sack-dollar'
+									style={{ fontSize: '20px' }}
+								></i>
+							</div>
+						</div>
+						<h3 className='stat-number'>25k</h3>
+						<p className='stat-label'>Annual gross sale in our site</p>
+					</div>
 				</div>
 			</section>
 
+			{/* ── Team ── */}
 			<section className='team-section container'>
 				<Swiper
 					modules={[Pagination, Autoplay]}
